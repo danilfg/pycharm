@@ -1,9 +1,5 @@
 # 🚀 PyCharm
 
-![GitHub repo size](https://img.shields.io/github/repo-size/danilfg/pycharm-cloud?color=blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/danilfg/pycharm-cloud?color=brightgreen)
-![License](https://img.shields.io/badge/license-MIT-green)
-
 📦 Репозиторий содержит дистрибутив **PyCharm 2025.2.0.1** (версии для **Windows**, **Linux** и **macOS**), загруженный в облако для удобного скачивания и установки.
 
 ---
