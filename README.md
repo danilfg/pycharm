@@ -19,12 +19,6 @@
 
 ---
 
-### 🔁 Альтернативная загрузка (Cloud Mail)
-
-👉 [https://cloud.mail.ru/public/u5yC/1XtJUbb6D](https://cloud.mail.ru/public/u5yC/1XtJUbb6D)
-
----
-
 ### 🌐 Официальный сайт
 
 👉 [https://www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/)
