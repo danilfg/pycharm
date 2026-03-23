@@ -1,58 +1,128 @@
-# 🚀 PyCharm
+# 🚀 PyCharm Setup (All Platforms)
 
-📦 Репозиторий содержит дистрибутив **PyCharm 2025.2.0.1** (версии для **Windows**, **Linux** и **macOS**), загруженный в облако для удобного скачивания и установки.
+![PyCharm](https://img.shields.io/badge/JetBrains-PyCharm-black?logo=jetbrains\&logoColor=white)
+![Version](https://img.shields.io/badge/recommended-2025.3.3-blue)
+![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20Linux%20%7C%20macOS-green)
+
+📦 Этот репозиторий содержит **инструкции и ссылки для установки PyCharm**
+для всех популярных платформ:
+
+👉 **Windows / Linux / macOS (Intel + Apple Silicon)**
 
 ---
 
-## 📥 Файлы для скачивания
+## 📥 Скачать PyCharm
 
-| ОС                               | Файл                             | Размер  |
-| -------------------------------- | -------------------------------- | ------- |
-| **macOS (Apple Silicon, ARM64)** | `pycharm-2025.2.0.1-aarch64.dmg` | 1.21 ГБ |
-| **Windows (x64)**                | `pycharm-2025.2.0.1.exe`         | 980 МБ  |
-| **Linux (x64)**                  | `pycharm-2025.2.0.1.tar.gz`      | 1.17 ГБ |
+### ✅ Основная загрузка (Google Drive)
 
-🔗 [Скачать все версии из облака](https://cloud.mail.ru/public/u5yC/1XtJUbb6D)
+👉 [https://drive.google.com/drive/folders/1_B_1hgz5kSmUX0wHlJNIZBnL2TQfa0DP?usp=sharing](https://drive.google.com/drive/folders/1_B_1hgz5kSmUX0wHlJNIZBnL2TQfa0DP?usp=sharing)
+
+---
+
+### 🔁 Альтернативная загрузка (Cloud Mail)
+
+👉 [https://cloud.mail.ru/public/u5yC/1XtJUbb6D](https://cloud.mail.ru/public/u5yC/1XtJUbb6D)
+
+---
+
+### 🌐 Официальный сайт
+
+👉 [https://www.jetbrains.com/pycharm/download/](https://www.jetbrains.com/pycharm/download/)
+
+---
+
+## 🧾 Доступные версии
+
+### 🍎 macOS
+
+| Архитектура           | Файл                           |
+| --------------------- | ------------------------------ |
+| Apple Silicon (ARM64) | `pycharm-2025.3.3-aarch64.dmg` |
+| Intel                 | `pycharm-2025.3.3.dmg`         |
+
+---
+
+### 🪟 Windows
+
+| Архитектура | Файл                           |
+| ----------- | ------------------------------ |
+| ARM64       | `pycharm-2025.3.3-aarch64.exe` |
+| x64         | `pycharm-2025.3.3.exe`         |
+
+---
+
+### 🐧 Linux
+
+| Архитектура | Файл                              |
+| ----------- | --------------------------------- |
+| ARM64       | `pycharm-2025.3.3-aarch64.tar.gz` |
+| x64         | `pycharm-2025.3.3.tar.gz`         |
 
 ---
 
 ## ⚡ Установка
 
-### Windows
+### 🪟 Windows
 
-1. Скачай файл **`pycharm-2025.2.0.1.exe`**.
-2. Запусти установщик и следуй инструкциям.
-
-### macOS
-
-1. Скачай файл **`pycharm-2025.2.0.1-aarch64.dmg`**.
-2. Перетащи **PyCharm.app** в папку `Applications`.
-3. Запусти через лаунчер.
-
-### Linux
-
-1. Скачай файл **`pycharm-2025.2.0.1.tar.gz`**.
-2. Распакуй:
-
-   ```bash
-   tar -xzf pycharm-2025.2.0.1.tar.gz -C /opt/
-   ```
-3. Запусти:
-
-   ```bash
-   /opt/pycharm/bin/pycharm.sh
-   ```
+1. Скачай `.exe` файл
+2. Запусти установщик
+3. Следуй инструкциям
 
 ---
 
-## 🛠️ Полезные ссылки
+### 🍎 macOS
 
-* [Официальный сайт JetBrains](https://www.jetbrains.com/pycharm/)
-* [Документация PyCharm](https://www.jetbrains.com/pycharm/documentation/)
-* [Плагины для PyCharm](https://plugins.jetbrains.com/)
+1. Скачай `.dmg` файл
+2. Перетащи **PyCharm.app** в `Applications`
+3. Запусти
+
+---
+
+### 🐧 Linux
+
+```bash
+tar -xzf pycharm-2025.3.3.tar.gz -C /opt/
+/opt/pycharm/bin/pycharm.sh
+```
+
+---
+
+## 💡 Как выбрать версию
+
+* **aarch64 (ARM64)** → Mac M1/M2/M3, Windows ARM, Linux ARM
+* **x64 / Intel** → обычные ПК и ноутбуки
+
+---
+
+## 🛠️ Рекомендуемые плагины (для QA / Python)
+
+После установки:
+
+* Python (встроен)
+* Pytest
+* Docker
+* Git
+* .env files support
+* Markdown
+
+---
+
+## ⚠️ Важно
+
+PyCharm является проприетарным программным обеспечением компании JetBrains.
+
+Этот репозиторий:
+
+* не содержит исходный код PyCharm
+* не изменяет лицензию
+* предоставляет только ссылки и инструкции
+
+Официальный сайт:
+👉 [https://www.jetbrains.com/pycharm/](https://www.jetbrains.com/pycharm/)
 
 ---
 
 ## 📜 Лицензия
 
-Этот репозиторий распространяется под лицензией **MIT**.
+Этот репозиторий (README и инструкции) распространяется под лицензией **MIT**.
+Программное обеспечение PyCharm распространяется отдельно по лицензии JetBrains.
